@@ -492,7 +492,14 @@ font-size: 1.5em;
 .qs button {
     margin-left: 30%;
 }
+.qs p {
 
+    font-size: 1.5em;
+    margin: 10px;
+}
+.puntua {
+    margin-right: 30px;
+}
 .home {
     display: none;
 }
