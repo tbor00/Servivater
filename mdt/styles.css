@@ -7,10 +7,13 @@
 
 .body {
     font-family: 'Bebas Neue', cursive;
+    background-color: #f9f7fd;
+    
 }
 
 a {
     text-decoration: none;
+    
 }
 
 
@@ -236,14 +239,18 @@ background-color: #87CEFA;
     padding-top: 50px;
     text-align: center;
     font-size: 2em;
-    color: #415A89;
+    color: black;
     font-weight: 1000;
     letter-spacing: 5px;
     margin-bottom: 40px;
     text-transform: uppercase;
+    opacity: .8;
 
 }
 
+.brock:hover {
+    color: #211776;
+}
 
 .casa p {
     text-align: center;
@@ -258,6 +265,8 @@ background-color: #87CEFA;
 
 }
 .portafolio {
+   
+    margin-left: 7%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 80px;
@@ -285,16 +294,27 @@ background-color: #87CEFA;
    
 
 }
+.brock a {
+    color:black;
+    opacity: .8;
+}
+
+
 
 .brock {
+   
+    border-radius: 10px;
+    padding: 20px;
     text-align: center;
     max-width: 150px;
     
     cursor: pointer;
+    height: 150px;
 }
 
 .brock h3 {
-    color:#211776 ;
+    padding-top: 20px;
+    color:#EC0ACA;
 }
 .brock span {
 
@@ -303,12 +323,41 @@ background-color: #87CEFA;
 }
 
 
+.brock:hover {
+    
+    transition:all .5s ease-in-out;
+    
+    -webkit-transform:scale(1.7);transform:scale(1.2);
+  
+  }
+
+  .brock:hover {
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #6a6fb4;
+    -webkit-box-shadow: 0px 0px 15px 15px #485683;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+   
+  }
+
+  .brock:hover {
+  -webkit-transform: rotateY(360deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(360deg);
+  transform-style: preserve-3d;}
+
+  .brock h3:hover {
+    color:#211776;
+}
+
 .portafolio a {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
 }
+
 
 
 
@@ -341,6 +390,7 @@ font-size: 1.5em;
 }
 
 .contenido button {
+    cursor: pointer;
     width: 150px;
     padding: 10px;
     background: rgb(15, 54, 128);
@@ -348,6 +398,9 @@ font-size: 1.5em;
     border: none;
     color: white;
     outline: none;
+}
+.contenido a {
+    color: white;
 }
 
 
@@ -370,14 +423,45 @@ font-size: 1.5em;
     justify-content: flex-end;
 }
 
-.video {
-    width: 300px;
-    height: 200px;
-    margin-left: 35%;
+.qs {
+    margin: 0;
+    text-align: center;
+    color: #211776;
     margin-bottom: 70px;
-
 }
 
+.qs h2 {
+    font-size: 3em;
+}
+
+.qs p {
+    padding-top: 30px;
+    font-size: 1.5em;
+}
+
+.qs button {
+    margin-top: 30px;
+    padding: 10px;
+    background-color:rgb(15, 54, 128);
+    opacity: .8;
+    border: none;
+    width: 150px;
+}
+
+.qs a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.qs button:hover {
+    opacity: .4;
+}
+
+body {
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f99a00' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
 
  @media (max-width: 700px) {
 
@@ -408,11 +492,8 @@ font-size: 1.5em;
         font-size: 0.5em;
     }
 
-.video {
-    width: 300px;
-    height: 200px;
-    margin: 0;
-   margin-left: 12%;
+.qs button {
+    margin-left: 30%;
 }
 
 .home {
@@ -431,6 +512,7 @@ button {
 }
 
 .portafolio {
+    margin-left: 30%;
     grid-template-columns: repeat(2, 1fr);
 }
 
