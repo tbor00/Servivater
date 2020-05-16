@@ -6,8 +6,14 @@
 }
 
 .body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Bebas Neue', cursive;
 }
+
+a {
+    text-decoration: none;
+}
+
+
 
 
 .menu ul {
@@ -21,6 +27,12 @@
     padding: 0px 2rem;
 
    
+}
+
+.menu i {
+    color: white;
+    position: relative;
+    top: 2px;
 }
 
 .menu img   {
@@ -54,6 +66,26 @@
     background-size: cover;
     object-fit: cover;
     background-position: center center;
+    animation: banner 28s infinite linear;
+}
+
+@keyframes banner {
+    0% {background-image: url(img/header.jpg);}    
+
+    25% {background-image: url(img/header.jpg);}
+
+    26% { background-image: url(img/slider/1.jpg);}
+
+    50% {background-image: url(img/slider/1.jpg);}
+
+    51% {background-image: url(img/slider/2.jpg);}
+
+    74% {background-image: url(img/slider/2.jpg);}
+
+    75% {background-image: url(img/slider/3.jpg);}
+
+    100% {background-image: url(img/slider/3.jpg);;}
+
 }
 
 
@@ -142,7 +174,18 @@ background-color: #87CEFA;
 
 }
 
+.puntua  {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+    cursor: pointer;
+}
 
+.puntua p:hover { 
+
+    opacity: .6;
+}
 .menu-btn {
     display: none;
     color: white;
@@ -193,7 +236,7 @@ background-color: #87CEFA;
     padding-top: 50px;
     text-align: center;
     font-size: 2em;
-    color: #708090;
+    color: #415A89;
     font-weight: 1000;
     letter-spacing: 5px;
     margin-bottom: 40px;
@@ -214,32 +257,117 @@ background-color: #87CEFA;
 
 
 }
+.portafolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 80px;
+    gap: 25px;
+    margin-bottom: 50px;
+
+}
+
+.portafolio img {
+    width: 100%;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.portafolio img:hover {
+    opacity: .6;
+}
 
 
 
-.why h2 {
+
+
+.portafolio h3 {
+    text-align: center;
+   
+
+}
+
+.brock {
+    text-align: center;
+    max-width: 150px;
+    
+    cursor: pointer;
+}
+
+.brock h3 {
+    color:#211776 ;
+}
+.brock span {
+
+    font-size: 3em;
+    color: #211776;
+}
+
+
+.portafolio a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+
+.banner h2 {
+    z-index: 2;
     padding-top: 20px;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     letter-spacing: 5px;
+    color: white;
+    padding-bottom: 30px;
 
+}
+.banner h5 {
+z-index: 2;
+text-align: center;
+color: white;
+font-size: 1.5em;
+}
+
+.contenido {
+    position: relative;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: center;
+}
+
+.contenido button {
+    width: 150px;
+    padding: 10px;
+    background: rgb(15, 54, 128);
+    opacity: .8;
+    border: none;
+    color: white;
+    outline: none;
 }
 
 
+.contenido button:hover {
+    opacity: .3;
+}
 
-.why p {
-    font-size: 1.3em;
-    text-align: center;
-    font-family: 'Modak', cursive;
-    font-family: 'Anton', sans-serif;
-    font-family: 'Amatic SC', cursive;
-    letter-spacing: 5px;
+.banner {
+    background-image: url(img/banner.jpg);   
+    width: 100%;
+    height: 400px;
+    background-color: rgb(61, 56, 56);
+    background-blend-mode: soft-light;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center center;
     margin-bottom: 70px;
-}
-
-
-.why {
-    background-color: rgb(220, 220, 220);
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .video {
@@ -263,6 +391,9 @@ background-color: #87CEFA;
 
         font-size: 15px;
         width: 300px;
+    }
+    .puntua { 
+        font-size: 30px;
     }
      
     .menu-btn {
@@ -299,12 +430,23 @@ button {
     height: 50px;
 }
 
+.portafolio {
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .btn {
     position: absolute;
     right: 150px;
 }
 
+.contenido {
+    position: relative;
+    top: 90px;
+}
 
+.menu i {
+    display: none;
+}
 
  }
 
@@ -312,5 +454,9 @@ button {
 
     h2 {
         font-size: 0.5em;
+    }
+
+    .portafolio {
+        grid-template-columns: 1fr;
     }
  }
