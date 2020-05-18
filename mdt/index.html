@@ -20,19 +20,41 @@
 
 
                             <!--header con inicio y busqueda-->
+
+
 <div class="container">
+
+    <div class="login" id="login">
+        <div class="login-box">
+            <img src="img/logo.jpeg" alt="" class="avatar">
+            <a href="javascript:cerrar()" id="cerrar"><i class="fas fa-times"></i></a>
+             <h1>Iniciar sesión</h1>
+             <form>
+               <!-- USERNAME INPUT -->
+               <label for="username">Email</label>
+               <input type="email" placeholder="Ingresa tu email" required>
+               <!-- PASSWORD INPUT -->
+               <label for="password">Contraseña</label>
+               <input type="password" placeholder="Ingresa tu contraseña" required>
+               <input type="submit" value="Iniciar sesión">
+               <a href="#">Perdiste tu contraseña?</a><br>
+               <a href="#">No tienes una cuenta?</a>
+             </form>
+        </div>
+   
+    </div>
 
 <div class="show-case">
 
     <nav class="menu">
         <ul class="nav-main">
             <li>
-                <a href="#" class="home" >  Iniciar sesión </a>
-                <i class="icon-login"></i>
+                <a href="javascript:abrir()" class="home" >  Iniciar sesión </a>
+                 <i class="icon-login"></i>
             </li>  
 
             <li>
-                <a href="" class="home">Registrarse </a>
+                <a href="#" class="home">Registrarse </a>
             </li>
 
             <li>
@@ -40,11 +62,11 @@
             </li>
 
         </ul>
-    </nav>
-        
-     
+    </nav>     
+    
 
-        <section class="head">
+              
+    <section class="head">
             <h2>Encontrá el profesional qué estas buscando...</h2>
             <form action="">
             <input type="text" class="busqueda" placeholder="¿Qué estas buscando?">
@@ -221,22 +243,22 @@
             <ul>
                 
                 <li>
-                    <a href="">Registrarse</a>
+                    <a href="javascript:abrir()">Registrarse</a>
                 </li>
                 <li>
-                    <a href="">Iniciar sesión</a>
+                    <a href="#">Iniciar sesión</a>
                 </li>
                 <li>
-                    <a href="">Nosotros</a>
+                    <a href="#">Nosotros</a>
                 </li>
                 <li>
-                    <a href="">Contacto</a>
+                    <a href="#">Contacto</a>
                 </li>
                 <li>
-                    <a href="">Política de Privacidad</a>
+                    <a href="#">Política de Privacidad</a>
                 </li>
                 <li>
-                    <a href="">Ayuda</a>
+                    <a href="#">Ayuda</a>
                 </li>
             </ul>       
         </div>
@@ -259,6 +281,6 @@
 
 </div>
 
-    
+    <script src="login.js"></script>
 </body>
 </html>
