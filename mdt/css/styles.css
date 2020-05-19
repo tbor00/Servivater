@@ -5,8 +5,12 @@
 
 }
 
+
+
+
 body {
     background-color: #f5f5f5;
+    font-family: 'Comfortaa', cursive;
 
     
 }
@@ -16,7 +20,20 @@ a {
     
 }
 
+.head i{
+    
+    position: relative;
+    color: gray;
+    right: 45px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+}
 
+
+.head i:hover {
+    color:#21243d
+}
 
 .login-box {
     width: 320px;
@@ -85,7 +102,7 @@ a {
   .login-box input[type="submit"]:hover {
     cursor: pointer;
     background: #ffd082;
-    color:black;
+    color:#21243d;
   }
   
   .login-box a {
@@ -96,7 +113,7 @@ a {
   }
   
   .login-box a:hover {
-    color: black;
+    color: #21243d;
   }
   .login {
  
@@ -329,7 +346,7 @@ a {
 
 .head h2  {
     position: relative;
-    font-size: 2em;
+    font-size: 1.7rem;
     letter-spacing: 5px;
     margin-bottom: 40px;
     
@@ -338,12 +355,13 @@ a {
 
 .head input {
     
-    width: 600px;
+    width: 800px;
     font-size: 23px;
-    height: 50px;
-    border-radius: 15px;
+    height: 70px;
+    border-radius: 5px;
     padding: 10px;
     border:0;
+    opacity: .7;
    
 }
 
@@ -367,7 +385,7 @@ a {
 .head .btn {
     width: 90px;
     height: 50px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 30px;
     background-color:rgb(225, 231, 233);
     padding: 5px 15px;
@@ -529,6 +547,13 @@ background-color: #87CEFA;
     
     cursor: pointer;
     height: 150px;
+
+
+    transition:all .5s ease-in-out;
+        
+    -webkit-transform:scale(1);transform:scale(1);
+      
+
 }
 
 .brock h3 {
@@ -538,11 +563,11 @@ background-color: #87CEFA;
 .brock span {
 
     font-size: 3em;
-    color: #88e1f2;
+    color: #21243d;
 }
 
 .brock span:hover {
-    color: #ff7c7c;
+    color: #ffd082;
 }
 
 
@@ -554,21 +579,9 @@ background-color: #87CEFA;
   
   }
 
-  .brock:hover {
-    border-radius:50%;
-    -webkit-border-radius:50%;
-    box-shadow: 0px 0px 15px 15px #6a6fb4;
-    -webkit-box-shadow: 0px 0px 15px 15px #485683;
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-   
-  }
 
-  .brock:hover {
-  -webkit-transform: rotateY(360deg);
-  -webkit-transform-style: preserve-3d;
-  transform: rotateY(360deg);
-  transform-style: preserve-3d;}
+
+
 
   .brock h3:hover {
     color:#21243D;
@@ -778,9 +791,14 @@ font-size: 1.5em;
 .qs button {
     margin-left: 30%;
 }
+
+.qs h2 {
+
+    font-size: 2rem;
+}
 .qs p {
 
-    font-size: 1.5em;
+    font-size: 1.5rem;
     margin: 10px;
 }
 .puntua {
@@ -825,6 +843,10 @@ button {
 }
 .footer {
     height: 100px;
+}
+
+.banner h2 {
+    font-size: 2rem;
 }
 
  }
