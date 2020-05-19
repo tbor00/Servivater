@@ -8,6 +8,8 @@
 
 
 
+
+
 body {
     background-color: #f5f5f5;
     font-family: 'Comfortaa', cursive;
@@ -159,16 +161,16 @@ a {
     .registrate p {
 
 
-        color: black;
+        color: #21243D;
 
     }
 
     .registrate a {
-        color: #21243D;
+        color:#21243D;
     }
 
     .registrate a:hover {
-        opacity: .5;
+        color:gray;
     }
 
     .registro h3{
@@ -195,7 +197,7 @@ a {
         border: none;
         outline: none;
         height: 40px;
-        background: #b80f22;
+        background: #ffd082;
         color: white;
         font-size: 18px;
         border-radius: 20px;
@@ -203,8 +205,8 @@ a {
 
       .registro input[type="submit"]:hover {
         cursor: pointer;
-        background: #211776;
-        color:white;
+        background: #ffd082;
+        color:#21243D;
       }
       
       .registro p {
@@ -362,6 +364,8 @@ a {
     padding: 10px;
     border:0;
     opacity: .7;
+    position: relative;
+    left: 25px;
    
 }
 
@@ -587,6 +591,12 @@ background-color: #87CEFA;
     color:#21243D;
 }
 
+.brock p {
+    font-size: 1rem;
+    color: #ff7c7c;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .portafolio a {
     display: flex;
     flex-direction: column;
@@ -771,6 +781,8 @@ font-size: 1.5em;
 
         font-size: 15px;
         width: 300px;
+        position: relative;
+        
     }
     .puntua { 
         font-size: 30px;
@@ -847,6 +859,12 @@ button {
 
 .banner h2 {
     font-size: 2rem;
+}
+
+.head i{
+    
+   padding-left: 30px;
+    
 }
 
  }
