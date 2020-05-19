@@ -5,9 +5,9 @@
 
 }
 
-.body {
-    font-family: 'Bebas Neue', cursive;
-    background-color: #f9f7fd;
+body {
+    background-color: #f5f5f5;
+
     
 }
 
@@ -22,7 +22,7 @@ a {
     width: 320px;
     height: 420px;
     background: white;
-    color: black;
+    color: #21243D;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -76,7 +76,7 @@ a {
     border: none;
     outline: none;
     height: 40px;
-    background: #b80f22;
+    background: #ffd082;
     color: white;
     font-size: 18px;
     border-radius: 20px;
@@ -84,7 +84,7 @@ a {
   
   .login-box input[type="submit"]:hover {
     cursor: pointer;
-    background: #ffc107;
+    background: #ffd082;
     color:black;
   }
   
@@ -131,7 +131,7 @@ a {
         z-index: 11;
         background-color: white;
         border-radius: 15px;
-        color: black;
+        color: #21243D;
         display: none;
         animation-duration: 3s;
         animation-name: slidein;
@@ -147,7 +147,7 @@ a {
     }
 
     .registrate a {
-        color: #211776;
+        color: #21243D;
     }
 
     .registrate a:hover {
@@ -159,8 +159,8 @@ a {
         padding: 0 0 15px;
         text-align: center;
         font-size: 22px;
-        text-transform: uppercase;
-        font-family: 'Bebas Neue', cursive;
+        
+        
         letter-spacing: 5px;
         font-size: 1.6em;
     }
@@ -209,7 +209,7 @@ a {
     background: transparent;
     outline: none;
     height: 40px;
-    color: black;
+    color: #21243D;
     font-size: 16px;
   }
   .registro input[type="text"]  {
@@ -218,7 +218,7 @@ a {
     background: transparent;
     outline: none;
     height: 40px;
-    color: black;
+    color: #21243D;
     font-size: 16px;
   }
   .registro input[type="date"]{
@@ -227,7 +227,7 @@ a {
     background: transparent;
     outline: none;
     height: 40px;
-    color: black;
+    color: #21243D;
     font-size: 16px;
   }
 
@@ -454,7 +454,7 @@ background-color: #87CEFA;
     padding-top: 50px;
     text-align: center;
     font-size: 2em;
-    color: black;
+    color: #21243d;
     font-weight: 1000;
     letter-spacing: 5px;
     margin-bottom: 40px;
@@ -463,8 +463,12 @@ background-color: #87CEFA;
 
 }
 
+.casa h2 {
+    color: #21243d;
+}
+
 .brock:hover {
-    color: #211776;
+    color: #21243D;
 }
 
 .casa p {
@@ -534,7 +538,11 @@ background-color: #87CEFA;
 .brock span {
 
     font-size: 3em;
-    color: #211776;
+    color: #88e1f2;
+}
+
+.brock span:hover {
+    color: #ff7c7c;
 }
 
 
@@ -563,7 +571,7 @@ background-color: #87CEFA;
   transform-style: preserve-3d;}
 
   .brock h3:hover {
-    color:#211776;
+    color:#21243D;
 }
 
 .portafolio a {
@@ -608,7 +616,7 @@ font-size: 1.5em;
     cursor: pointer;
     width: 150px;
     padding: 10px;
-    background: rgb(15, 54, 128);
+  background-color: #ff7c7c;
     opacity: .8;
     border: none;
     color: white;
@@ -627,7 +635,7 @@ font-size: 1.5em;
     background-image: url(img/banner.jpg);   
     width: 100%;
     height: 400px;
-    background-color: rgb(61, 56, 56);
+    background-color: #21243D;
     background-blend-mode: soft-light;  
     background-repeat: no-repeat;
     background-size: cover;
@@ -641,7 +649,7 @@ font-size: 1.5em;
 .qs {
     margin: 0;
     text-align: center;
-    color: #211776;
+    color: #21243d;
     margin-bottom: 70px;
 }
 
@@ -657,8 +665,8 @@ font-size: 1.5em;
 .qs button {
     margin-top: 30px;
     padding: 10px;
-    background-color:rgb(15, 54, 128);
-    opacity: .8;
+    background-color:#ff7c7c;
+    
     border: none;
     width: 150px;
 }
@@ -670,7 +678,7 @@ font-size: 1.5em;
 }
 
 .qs button:hover {
-    opacity: .4;
+    opacity: .8;
 }
 
 
@@ -678,7 +686,7 @@ font-size: 1.5em;
     
     width: 100%;
     height: 150px;
-    background-color: #000000;
+    background-color: #21243D;
     opacity: .9;
     color: white;
   }
@@ -732,6 +740,8 @@ font-size: 1.5em;
 .column2 a:hover {
     opacity: .3;
 }
+
+
 
 
 
