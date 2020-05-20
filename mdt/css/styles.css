@@ -487,17 +487,28 @@ background-color: #87CEFA;
 }
 
 .puntua  {
-    margin-top: 100px;
+    margin-top: 250px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    gap: 20px;
+    gap: 300px;
     cursor: pointer;
+    opacity: .8;
+   
 }
 
-.puntua p:hover { 
-
-    opacity: .6;
+.puntua i {
+    position: relative;
+    left: 5px;
+    margin: 0;
+    color: white;
 }
+
+.puntua i:hover {
+    color: #ffd082;
+}
+
+
+
 .menu-btn {
     display: none;
     color: white;
@@ -886,7 +897,24 @@ font-size: 1.5em;
     margin: 10px;
 }
 .puntua {
-    margin-right: 30px;
+    font-size: 30px;
+    margin-right: 52px;
+}
+
+.puntua  {
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.puntua i{
+    padding: 0;
+    position: relative;
+    top: -20px;
+    left: 30px;
+    font-size: 14px;
 }
 .home {
     display: none;
