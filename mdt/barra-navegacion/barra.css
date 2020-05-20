@@ -15,12 +15,17 @@
 
 }
 
-#buscador{
+.buscador{
     
-    margin-left: 15rem;
-    text-align: center;
-   	height: 30px;
-	width: 400px;
+    margin-left: 15rem !important;
+    text-align: center !important;
+   	height: 30px !important;
+	width: 400px !important;
+}
+
+#botonera{
+
+	color: #ff7c7c
 }
 
 #imagen{
