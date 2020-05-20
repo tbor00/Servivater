@@ -491,9 +491,14 @@ background-color: #87CEFA;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     gap: 300px;
-    cursor: pointer;
+    cursor: initial;
     opacity: .8;
    
+}
+
+
+.puntua  p {
+    cursor:initial;
 }
 
 .puntua i {
@@ -501,10 +506,12 @@ background-color: #87CEFA;
     left: 5px;
     margin: 0;
     color: white;
+    cursor: initial;
 }
 
+
 .puntua i:hover {
-    color: #ffd082;
+    color: white;
 }
 
 
