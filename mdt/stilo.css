@@ -1,0 +1,143 @@
+.modal-content {
+    width: 200px !important;
+    width: 320px !important;
+    border-radius: 15px !important;
+    display: block !important;
+    color: #21243D !important;
+    position: relative !important;
+    left: 20% !important;
+    top: 50px;
+}
+
+.modal-content input {
+    display: block !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.modal-content input[type="submit"] {
+    margin-left: 30px !important;
+    display: block !important;
+}
+
+.modal-content button {
+    margin-left: 30px !important;
+    display: block !important;
+    
+    width: 100% !important;
+    margin-bottom: 20px !important;
+}
+  
+
+.modal-content .avatar {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+    position: absolute !important;
+    top: -50px !important;
+    left: calc(50% - 50px) !important;
+    border: 1px !important;
+  }
+
+  .modal-content .login-box h1 {
+    font-size: 1rem !important;
+    padding-top: 50px !important;
+    position: relative !important;
+    left: 30px !important;
+    
+    text-align: center !important;
+    font-size: 22px !important;
+    padding-bottom: 50px !important;
+  }
+
+  .modal-content .login-box input {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+
+  .modal-content .login-box input[type="submit"] {
+    border: none !important;
+    outline: none !important;
+    height: 40px !important;
+    background: #ffd082 !important;
+    color: white !important;
+    font-size: 18px !important;
+    border-radius: 20px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .login-box input[type="submit"]:hover {
+    cursor: pointer !important;
+    background: #ffd082 !important;
+    color:#21243d !important;
+  }
+
+
+  .facebook {
+    margin: 10px !important;
+    
+    border: none !important;
+    outline: none !important;
+    height: 40px !important;
+    background: #3b5998 !important;
+    color: white !important;
+    font-size: 15px !important;
+    border-radius: 20px !important;
+
+    transition:all .5s ease-in-out !important;
+    
+    -webkit-transform:scale(1);transform:scale(1) !important;
+  }
+
+  .google  {   
+    margin: 10px !important;
+    width: 250px !important;
+    border: none !important;
+    outline: none !important;
+    height: 40px !important;
+    background: #d63447 !important;
+    color: white !important;
+    font-size: 15px !important;
+    border-radius: 20px !important;
+    transition:all .5s ease-in-out !important;
+    
+    -webkit-transform:scale(1);transform:scale(1) !important;
+  }
+
+
+  
+  .facebook:hover {
+    transition:all .5s ease-in-out !important;
+
+    -webkit-transform:scale(1.7);transform:scale(1.2) !important;
+}
+
+.google:hover {
+    transition:all .5s ease-in-out !important;
+
+    -webkit-transform:scale(1.7);transform:scale(1.2) !important;
+}
+
+  
+
+.google span {
+        
+    position: relative !important;
+    top: 50px !important;
+    right: 287px !important;
+    font-size: 20px !important;
+    
+}
+
+
+.login-box a {
+    text-decoration: none !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+    color: gray !important;
+  }
+  
+  .login-box a:hover {
+    color: #21243d !important;
+  }
+

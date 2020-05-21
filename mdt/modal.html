@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="stilo.css">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+      </button>
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <div class="login" id="login">
+                <div class="login-box">
+                    <img src="css/img/logo.jpeg" alt="" class="avatar">
+                    <a href="javascript:cerrar()" id="cerrar"><i class="fas fa-times"></i></a>
+                    <h1>Iniciar sesión</h1>
+                    <form>
+    
+                        <label for="username">Email</label>
+                        <input type="email" placeholder="Ingresa tu email" required>
+                        <label for="password">Contraseña</label>
+                        <input type="password" placeholder="Ingresa tu contraseña" required>
+                        <input type="submit" value="Iniciar sesión">
+                        <button class="facebook"> <span> <i class="fab fa-facebook-f"></i></span> Entrá con
+                            Facebook</button>
+                        <button class="google"> <span><i class="fab fa-google"></i></span> Entrá con Google</button>
+                        <a href="#">Perdiste tu contraseña?</a><br>
+                        <a href="#">No tienes una cuenta? Registrate</a>
+                    </form>
+                </div>
+    
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</html>
