@@ -1,0 +1,26 @@
+body {
+    color:#21243D ;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  .form-control, .btn{
+    border-radius: 0;
+    
+  }
+
+
+
+
+  .team, footer {
+    background: #21243D;
+  }
+
+  #img {
+  
+    width: 230px;
+    height: 150px;
+  }
+
+  textarea {
+      resize: none;
+  }
