@@ -24,3 +24,38 @@ body {
   textarea {
       resize: none;
   }
+
+  .navbar{
+    background: #21243D !important;
+    opacity: .9 !important;
+    color: white !important;
+    
+  }
+  
+  
+  
+  #imagen {
+    width: 80px !important;
+  }
+  
+  
+  
+  .nav-link {
+    
+    border-bottom: 1px solid transparent !important ;
+  }
+  
+  
+  .nav-link:hover{
+  border-bottom: 1px solid white !important;
+  }
+  
+  .navbar-nav a  {
+    
+    padding-left: 15px!important;
+  }
+  
+  .nav-link {
+    color: white !important;
+  }
+  
