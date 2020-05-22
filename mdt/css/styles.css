@@ -958,10 +958,10 @@ button {
 }
 
 .column1 {
-    display: none;
+    display: block;
 }
 .footer {
-    height: 100px;
+    height: 200px;
 }
 
 .banner h2 {
@@ -987,6 +987,17 @@ button {
     }
 
     .column1 {
-        display:none;
+        display:block;
+        font-size: .7rem;
+        gap: 50px;
+        
     }
+
+   #langpage {
+      column-gap:40px;
+   }
+
+   .altura1 {
+       margin-top: 20px;
+   }
  }
